@@ -1,0 +1,104 @@
+body {
+  background-color: grey;
+  }
+  h1{
+    color:black;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  h3{
+    color: white;
+    text-align: center;
+
+  }
+
+  h4{
+    color:black;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+
+  #textcolor {
+    color:white;
+    text-align: center;
+  }
+  .textclass{
+    color:white;
+    text-align: center;
+    
+  }
+
+  div.seconddiv p {
+    color:white;
+    }
+
+  section:hover{
+    background-color: yellow;
+  }
+  
+  hgroup:hover{
+    background-color: yellow;
+  }
+
+  nav {
+    text-align: center;
+
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    column-gap: 210px;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+  }
+
+  li {
+    float:left;
+}
+
+li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+    
+
+    position: sticky;
+    top: 0;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover:not(active){
+    background-color: #1d1a1a;
+}

@@ -1,0 +1,35 @@
+li a{
+    display: block;
+    width: 100px;
+    color: black;
+    /*background-color: cornflowerblue;*/
+    text-decoration: none;
+    padding: 10px 20px; /*Spacing Between Links*/
+} 
+
+/* li {
+    display: inline;
+
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    background-color: antiquewhite;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+li a:hover:not(.active) {
+    background-color: darkolivegreen;
+    color: white;
+
+}
+
+li a.active{
+    background-color: darkgreen;
+    color:white;
+}
